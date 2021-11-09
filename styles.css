@@ -1,0 +1,143 @@
+.clockContainer {
+    position: relative;
+    margin: auto;
+    margin-top: 9%;
+    height: 350px;
+    width: 350px;
+    background: url(clock.png) #011B56 no-repeat center;
+    background-size: 100%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 40px;
+}
+
+#hour,
+#minute,
+#second,
+#date,
+#time,
+#point,
+button,
+h1,
+h2,
+.circle {
+    position: absolute;
+    border-radius: 5px;
+}
+
+#hour {
+    height: 59px;
+    width: 4px;
+    top: 33%;
+    left: 49.7%;
+    transform-origin: bottom;
+    background: black;
+}
+
+#minute {
+    height: 63px;
+    width: 2px;
+    top: 32%;
+    left: 49.9%;
+    transform-origin: bottom;
+    background: black;
+}
+
+#second {
+    height: 90px;
+    width: 1px;
+    top: 24%;
+    left: 49.999%;
+    transform-origin: bottom;
+    background: black;
+}
+
+#point {
+    height: 7px;
+    width: 7px;
+    top: 49%;
+    left: 49.2%;
+    transform-origin: bottom;
+    background: black;
+}
+
+.circle {
+    width: 600px;
+    height: 600px;
+}
+
+.circle:before {
+    content: '';
+    position: absolute;
+    top: 100px;
+}
+
+body {
+    background: #0269A4;
+    background: black;
+}
+
+#date,
+#time {
+    color: blanchedalmond;
+    margin-left: 20%;
+}
+
+.dateContainer {
+    position: absolute;
+    height: 66px;
+    width: 290px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    top: 23rem;
+    margin-left: 12%;
+    box-shadow: inset 0 0 40px;
+}
+
+.dateContainer #date {
+    width: auto;
+    padding: 6px 3px;
+    letter-spacing: 2px;
+    font-family: system-ui;
+}
+
+.dateContainer #time {
+    width: auto;
+    padding: 25px 5px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-family: system-ui;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 15px;
+    color: #fff;
+    width: 100%;
+    font-family: system-ui;
+    font-weight: 100;
+    margin-top: 27rem;
+    margin-left: 22%;
+}
+
+h1 span {
+    color: #dc143c;
+}
+
+h2 {
+    margin-top: -20%;
+    font-size: 35px;
+    color: #fff;
+    width: 100%;
+    font-family: system-ui;
+    font-weight: 100;
+    margin-left: 16%;
+}
+
+h2 span {
+    color: #00ffff;
+}
+
+audio {
+    display: none;
+}
