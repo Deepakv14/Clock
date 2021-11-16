@@ -79,7 +79,11 @@ body {
 #date,
 #time {
     color: blanchedalmond;
-    margin-left: 20%;
+    margin-left: 14%;
+}
+
+#time {
+    margin-left: 18%;
 }
 
 .dateContainer {
@@ -96,7 +100,7 @@ body {
 .dateContainer #date {
     width: auto;
     padding: 6px 3px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: system-ui;
 }
 
@@ -116,8 +120,8 @@ h1 {
     width: 100%;
     font-family: system-ui;
     font-weight: 100;
-    margin-top: 27rem;
-    margin-left: 22%;
+    margin-top: 28rem;
+    margin-left: 18%;
 }
 
 h1 span {
@@ -136,4 +140,9 @@ h2 {
 
 h2 span {
     color: #00ffff;
+}
+
+audio {
+    color: black;
+    display: none;
 }
