@@ -7,7 +7,7 @@
     background: url(clock.png) #011B56 no-repeat center;
     background-size: 100%;
     border-radius: 50%;
-    box-shadow: inset 0 0 40px;
+    box-shadow: inset 0 0 20px;
 }
 
 #hour,
@@ -72,14 +72,13 @@ h2,
 }
 
 body {
-    background: #0269A4;
     background: black;
 }
 
 #date,
 #time {
     color: blanchedalmond;
-    margin-left: 14%;
+    margin-left: 18%;
 }
 
 #time {
@@ -99,8 +98,7 @@ body {
 
 .dateContainer #date {
     width: auto;
-    padding: 6px 3px;
-    letter-spacing: 1px;
+    padding: 6px 5px;
     font-family: system-ui;
 }
 
@@ -108,7 +106,7 @@ body {
     width: auto;
     padding: 25px 5px;
     padding-bottom: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: system-ui;
     font-size: 30px;
     letter-spacing: 2px;
